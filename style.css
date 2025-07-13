@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+h1{
+    background-color: rgb(11, 11, 23);
+    color:azure;
+    height: 5rem;
+    line-height: 5rem;
+}
+.c1{
+    height: 350px;
+    width: 350px;
+}
+.c1:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    height: 300px;
+    width: 300px; 
+    border-radius: 20%;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 5rem;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 3rem;
+}
+#user,
+#comp{
+    font-size: 5rem;
+}
+.msg-container{
+    margin-top: 9rem;
+}
+#msg{
+    
+    background-color: rgb(4, 0, 0);
+    color:azure;
+    height: 5rem;
+    font-size: 3rem;
+   display: inline;
+   border-radius: 10%;
+}
